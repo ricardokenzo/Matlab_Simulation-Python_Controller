@@ -3,6 +3,7 @@ open_system('Model3D_PY') %Opens the simulink/simulation model
 fprintf('Model opened \n');
 
 %set_param('Model3D_PY', 'SimulationCommand', 'start'); %error
+sim('Model3D_PY')
 
 s = tcpip('localhost', 54320,  'NetworkRole', 'server'); %estabilishes the connection
 set(s,'Timeout',200);

@@ -1,0 +1,6 @@
+%implements s29_b0_7kt8m_ModuleVariables "C"
+
+%function ModuleVariables(block) Output
+
+static real32_T tmp[15] = { 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F };
+%endfunction
